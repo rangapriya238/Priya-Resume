@@ -1,0 +1,51 @@
+body {
+    font-family: 'Ariel', sans-serif;
+    margin: 10;
+    padding: 10;
+    background: #f3efea;
+    color: #222; /* Darker text color */
+}
+
+header .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #ddbea9, #fae1dd);
+    color: black;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #9c3b34; /* Adds a subtle border */
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    color: #9c3b34; /* Slightly darker tone */
+}
+
+.skill-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #333; /* Darker text color */
+}
+
+.project {
+    background: #f2d1d1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #444; /* Darker text for readability */
+}
